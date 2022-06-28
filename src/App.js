@@ -38,19 +38,7 @@ class App extends Component {
     });
     return (
       <div className="App">
-        {/*<input*/}
-        {/*  className="search-box"*/}
-        {/*  type="search"*/}
-        {/*  placeholder="search monsters"*/}
-        {/*  onChange={onSearchChange}*/}
-        {/*/>*/}
-        {/*        {filteredMonsters.map((monster) => {
-          return (
-            <div>
-              <h1 key={monster.id}>{monster.name}</h1>
-            </div>
-          );
-        })}*/}
+        <h1 className="app-title">Monster Rolladex</h1>
         <SearchBox
           className="search-box"
           onChangeHandler={onSearchChange}
