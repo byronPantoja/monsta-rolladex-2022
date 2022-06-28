@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import CardList from "./component/card-list/card-list.component";
 import SearchBox from "./component/search-box/search-box.component";
-import { setSelectionRange } from "@testing-library/user-event/dist/utils";
 
 const App = () => {
   const [searchField, setSearchField] = useState("");
